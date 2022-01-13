@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Courier New', Courier, monospace;
+}
+body{
+    background-color: #400040;
+    padding: 1%;
+    box-sizing: border-box !important;
+    /* overflow-x: visible; */
+}
+#header{
+    width: 100%;
+    height: 50px;
+    background: #800080;
+    border-radius: 3px;
+    margin-top: 10PX    ;
+}
+#header h1{
+    line-height: 55px;
+    margin-left: 25px;
+    font-weight: bold;
+    color: white;   
+    word-spacing: 5px;
+}
+#parent{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+#bodyleft{
+    width: 24%;
+    height: 500px;
+    background: #400040;
+    margin: 20px 10px 10px 0px ;
+    float: left;
+    border-radius: 3px;
+    
+}
+#bodyleft h3{
+    color:#fff;
+    background: #800080;
+    /* height: 40px; */
+    min-height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 3px;
+    word-spacing: 5px;
+    letter-spacing: 1   px;
+    font-size: 22px;
+    margin: auto;
+    width: 100%;
+}
+#bodyleft ul{
+    list-style-type: none;
+    margin-top: 10px;
+}
+#bodyleft ul li{
+    /* background: #fff; */
+    min-height: 30px;
+    line-height: 30px;
+    display:block;
+    border-radius: 3px;
+}
+#bodyleft ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding-left: 3%;
+    display: block;
+    font-size: 19px;
+}
+#bodyleft ul li a:hover{
+    background:#800080;
+}
+#bodyright{
+    width: 75.5%;
+    min-height: 500px;
+    background: #800080;
+    margin: 20px 0px 20px 0px;
+    float: left;
+    border-radius: 3px;
+    border: 2px solid black;
+}
+#bodyright h3{
+    color:#fff;
+    background: #800080;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 3px;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    font-size: 22px;
+    margin: auto;
+    width: auto;
+    border-bottom: 2px solid #400040;
+}
+#bodyright #myForm table{
+    width: 95%;
+    margin: 20px auto;
+    background: #400040;  
+    color: #fff;
+    border: 2px solid #fff;
+    /* border-radius: 10px; */
+    
+}
+#bodyright #myForm table tr td{
+    width: 50%;
+    height: 35px;
+    padding-left: 20px;
+    padding-right: 10px;
+    font-weight: bold;
+    font-size: 17px;
+    /* margin-top: 5px; */
+    /* margin-left: -10px; */
+    /* border: 2px solid #fff; */
+    
+}
+#bodyright #myForm table tr td input{
+    width: 100%;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid #fff;
+    outline: none;
+    padding-left: 2%;
+    margin: 5px 0px;
+    /* padding-right: -20px; */
+}
+#bodyright #myForm button{
+    width: auto;
+    height: 40px;
+    cursor: pointer;
+    font-size: 18px;
+    background: #800080;
+    border: 2px solid #400040;
+    border-radius: 3px;
+    color:#fff;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding: 0px 10px;
+    /* position: relative; */
+    /* top:250px; */
+}
+#bodyright #myForm button:hover{
+    /* text-decoration: underline; */
+    background: #400040;
+    /* border: 2px solid #800080; */
+}
+#bodyright #myForm table tr td select{
+    width: 100%;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid #fff;
+    outline: none;
+    padding-left: 2%;
+    margin: 5px 0px;
+}
+#bodyright #myForm2 table {
+    width: 95%;
+    margin: 20px auto;
+    color: #fff;
+    border: 2px solid #fff;
+}
+#bodyright #myForm2 table tr th{
+    text-align: left;
+    padding: 1% 2%;
+    background: #400040;
+    height: 10px !important;
+    /* width: 250px; */
+    border-bottom: 2px solid #fff;
+    /* border-right: 2px solid #fff; */
+    font-size: 18px;
+    box-sizing: border-box;
+}
+#bodyright #myForm2 table tr td {
+    text-align: left;
+    padding: 1% 2%;
+    font-size: 18px;
+    border-bottom: 2px solid black;
+}
+#bodyright #myForm2 table tr td a{
+    color : #000 !important;
+    padding: 1% 2%;
+    text-decoration: none;
+    font-size: 18px;
+}
+#bodyright #myForm2 table tr td a:hover{
+    background: #400040;
+    color: #fff !important;
+}
+
+.pro_scroll{
+    overflow: scroll;
+}
+#bodyright #pro_myForm2{
+    height: 550px;
+}
+#bodyright #pro_myForm2 table{
+    border: 2px solid #fff;
+    width: 95% !important;
+    color: #fff;
+    margin: 20px 1%;
+    
+}
+#bodyright #pro_myForm2 table tr th{
+    
+    padding: 1% 0.3%;
+    /* text-align: left; */
+    border-bottom: 2px solid #fff;
+    border-right: 2px solid #fff;
+    background: #400040;
+}
+#bodyright #pro_myForm2 table tr td img{
+    width: 40px;
+    height: 40px;
+    padding: 0% 0.5%;
+}
+#bodyright #pro_myForm2 table tr td{
+    min-width: 170px;
+    text-align: center;
+    height: 45px;
+    padding: 0.5% 0.3%;
+    border-bottom: 2px solid black;
+    overflow-wrap: break-word;
+    
+}
+#bodyright #pro_myForm2 table tr td a{
+    color : #000 !important;
+    padding: 1% 2%;
+    text-decoration: none;
+    font-size: 18px;
+}
+#bodyright #pro_myForm2 table tr td a:hover{
+    background: #400040;
+    color: #fff !important;
+}
+
+
+
